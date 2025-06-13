@@ -63,5 +63,21 @@ A fullstack MERN (MongoDB, Express, React, Node.js) Attendance Management System
   VITE_URL = http://localhost:8000  /your backend url
 
 
-  Note: ![Alt Text](./note1.JPG)
+  Note: 
+  A initial setup is required to insert Admin
+  Do add admin first
+  1) Open postman
+  2) create a request with method POST
+  3) insert http://localhost:8000/user or your {url}/user
+  4) select body, raw and json in postman as in figure
+  5) then insert in body as this format
+     {
+    "name":"YourName",
+    "email":"your@gmail.com",
+    "password":"YourPassword",
+    "role":"admin"
+   
+}
+6) Then hit it result will show success as in figure after you hit api
+  ![Alt Text](./note1.JPG)
 
