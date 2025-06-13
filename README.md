@@ -63,4 +63,5 @@ A fullstack MERN (MongoDB, Express, React, Node.js) Attendance Management System
   VITE_URL = http://localhost:8000  /your backend url
 
 
-  Note: 
+  Note: ![Alt Text](./note1.JPG)
+
