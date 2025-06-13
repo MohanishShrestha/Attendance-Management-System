@@ -27,3 +27,19 @@ A fullstack MERN (MongoDB, Express, React, Node.js) Attendance Management System
    ```bash
    cd Attendance_backend
 
+2. Install dependenciesr:
+
+   ```bash
+   npm install
+   
+3. Configure constants:
+   Open config/constant.js and set port, dburl and secretKey :
+   ```bash
+   export const port = 8000;
+   export const dburl = "mongodb://0.0.0.0:27017/dw22"; // create a data base and    put its url here dw22 is my database
+   export const secretkey = "hidethis"; // can be any or specific if needed
+
+4. Run the backend server:
+
+   ```bash
+   npm run dev
