@@ -60,12 +60,13 @@ A fullstack MERN (MongoDB, Express, React, Node.js) Attendance Management System
 3. Configure backend URL:
    Open .env :
    ```bash
-  VITE_URL = http://localhost:8000  /your backend url
+   VITE_URL = http://localhost:8000  /your backend url
+  
 
 
-  Note: 
-  A initial setup is required to insert Admin
-  Do add admin first
+  ###Note: A initial setup is required to insert Admin
+
+  ```bash
   1) Open postman
   2) create a request with method POST
   3) insert http://localhost:8000/user or your {url}/user
@@ -76,8 +77,9 @@ A fullstack MERN (MongoDB, Express, React, Node.js) Attendance Management System
     "email":"your@gmail.com",
     "password":"YourPassword",
     "role":"admin"
-   
 }
 6) Then hit it result will show success as in figure after you hit api
+
+###POSTMAN
   ![Alt Text](./note1.JPG)
 
