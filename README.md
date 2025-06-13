@@ -7,7 +7,7 @@ A fullstack MERN (MongoDB, Express, React, Node.js) Attendance Management System
 ## 📁 Project Structure
 
 - `Attendance_backend/` – Backend API built with Node.js, Express, and MongoDB
-- `Attendance_forntend/vite-project/` – Frontend built with React and Vite
+- `Attendance_forntend/vite-project/` – Frontend built with React, Redux Saga, React Router, Material-UI and Vite
 
 ---
 
