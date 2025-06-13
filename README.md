@@ -36,10 +36,28 @@ A fullstack MERN (MongoDB, Express, React, Node.js) Attendance Management System
    Open config/constant.js and set port, dburl and secretKey :
    ```bash
    export const port = 8000;
-   export const dburl = "mongodb://0.0.0.0:27017/dw22"; // create a data base and    put its url here dw22 is my database
+   export const dburl = "mongodb://0.0.0.0:27017/dw22"; // create a data base and put its url here dw22 is my database
    export const secretkey = "hidethis"; // can be any or specific if needed
 
 4. Run the backend server:
 
    ```bash
    npm run dev
+
+
+### Forntend Setup
+
+1. Navigate to backend folder:
+
+   ```bash
+   cd Attendance_forntend/vite-project
+
+2. Install dependenciesr:
+
+   ```bash
+   npm install
+
+3. Configure backend URL:
+   Open config/constant.js and set port, dburl and secretKey :
+   ```bash
+   export const port = 8000;
