@@ -58,6 +58,9 @@ A fullstack MERN (MongoDB, Express, React, Node.js) Attendance Management System
    npm install
 
 3. Configure backend URL:
-   Open config/constant.js and set port, dburl and secretKey :
+   Open .env :
    ```bash
-   export const port = 8000;
+  VITE_URL = http://localhost:8000  /your backend url
+
+
+  Note: 
