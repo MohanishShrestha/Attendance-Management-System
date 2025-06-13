@@ -84,7 +84,3 @@ A fullstack MERN (MongoDB, Express, React, Node.js) Attendance Management System
    6) Then hit it result will show success as in figure after you hit api
 
 
-
-
-
-
