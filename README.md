@@ -62,7 +62,10 @@ A fullstack MERN (MongoDB, Express, React, Node.js) Attendance Management System
    ```bash
    VITE_URL = http://localhost:8000  /your backend url
 
+4. To Run forntend:
 
+   ```bash
+   npm run dev
 
  ### Note: A initial setup is required to insert Admin as when we login if the role is admin then only will adminDash board will open if not user dashboard will open, and only admin can register a user
 
