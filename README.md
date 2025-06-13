@@ -77,9 +77,10 @@ A fullstack MERN (MongoDB, Express, React, Node.js) Attendance Management System
     "email":"your@gmail.com",
     "password":"YourPassword",
     "role":"admin"
-}
-6) Then hit it result will show success as in figure after you hit api
+   }
+   6) Then hit it result will show success as in figure after you hit api
+
 
 ###POSTMAN
-  ![Alt Text](./note1.JPG)
+![Alt Text](./note1.JPG)
 
